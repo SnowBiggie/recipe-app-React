@@ -1,0 +1,85 @@
+.header{
+    width: 100%;
+    padding: 0.3rem 1.5rem;
+    height: 100%;
+    background-color: #1a1a1a;
+    border-bottom: 0.2rem solid lightgray;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 3rem;
+    width: 3rem;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    height: 2rem;
+    width: 17rem;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+
+.Avatarsearch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: #cbb26a;
+}
+
+.leftNav{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.rightNav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+}
+
+.rightNav a:hover,
+.rightNav a.active{
+    text-decoration: underline;
+    color: #be9e44;
+}
+
+.login{
+    color: white;
+    font-weight: 200;
+}
+
+.login:hover,
+.login:active{
+    text-decoration: underline;
+    color: #be9e44;
+    cursor: pointer;
+}
